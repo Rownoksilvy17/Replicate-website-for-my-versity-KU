@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khulna University</title>
+<link rel="shortcut icon"href="logo.jpg">
+    <script src="https://kit.fontawesome.com/84aa220082.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <!-- CSS only -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(245, 141, 6);
+            padding: 14px 0px;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: white;
+            border-radius: 35%;
+            color: black;
+
+        }
+
+        .home {
+            background-image: url(ku.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 600px;
+        }
+
+        .heading {
+            font-size: 40px;
+            padding-top: 200px;
+        }
+
+        .tab-content {
+
+            padding: 15px;
+
+            margin: 15px;
+
+            border: 2px solid darkblue;
+            width: 75%;
+            height: 380px;
+
+        }
+
+        .content2 {
+            height: 200px;
+            border: 2px solid darkblue;
+            align-items: center;
+
+            ;
+
+        }
+
+        .data-news {
+            background: darkblue;
+            border-radius: 45%;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .what li a {
+            color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home </i></a></li>
+                <li class="dropdown"><a href="#news">About Us <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">History</a>
+                        <a href="#">vission &Mission</a>
+                        <a href="#">Mou</a>
+                    </div>
+                </li>
+
+                <li class="dropdown"><a href="#contact">Administration <i class="fa fa-caret-down"
+                            aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#contact">School<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+
+                        <a href="#">Life science</a>
+                        <a href="#">SET</a>
+                        <a href="#">Law</a>
+                        <a href="#">History</a>
+                        <a href="#">vission &Mission</a>
+                        <a href="#">Mou</a>
+                    </div>
+                </li>
+                <li><a href="#contact">Admission<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                <li><a href="#contact">Center and cell<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                <li><a href="#contact">Research & Publications<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#contact">Faculties</a></li>
+                <li><a href="#contact">Career</a></li>
+
+            </ul>
+
+        </nav>
+    </div>
+    <section class=home>
+        <div class=heading>
+            <h1 style="text-align: center; color:white">KHULNA<br>
+                <br>
+                University
+            </h1>
+        </div>
+    </section>
+    <section>
+        <h3 style="padding-left: 15px;">Notice Board</h3>
+        <div class=container>
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="tab-content">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab1" aria-expanded="true">News</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab2" aria-expanded="false">Upcoming Events</a>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab3" aria-expanded="false">Notices</a></li>
+                        </ul>
+                        <marquee width="60%" direction="up" height="180px">
+                           <b> Mar 31
+2021</b>
+<p style="color:blue">খুবিতে ক্রস ব্রিডিংয়ের মাধ্যমে দেশীয় ভেড়ার জাত উন্নয়নে সাফল্য, মাংসের চাহিদা পূরণে নতুন সম্ভাবনা</p>
+<br>
+<b>Mar 27
+2021</b>
+<p style="color:blue">সার্ক এগ্রিকালচার সেন্টারের সাথে খুবির বিজিই ডিসিপ্লিনের এমওইউ স্বাক্ষরের সিদ্ধান্ত<br></p>
+<b>Mar 25
+2021</b>
+<p style="color:blue">খুবির সাইটে স্কুলের উদ্যোগে ‘ম্যানেজিং চেঞ্জ এন্ড সাসটেইনেবল ডেভেলপমেন্ট’ শীর্ষক লেকচার সিরিজ অনুষ্ঠিত<br>
+</p><b>Mar 23
+2021</b>
+<p style="color:blue">খুবির এগ্রোটেকনোলজি ডিসিপ্লিনের গবেষণা প্রকল্প, দাকোপে লবণাক্ত জমিতে বিনাচাষে সূর্যমুখী ও গম চাষ এবং সার ব্যবস্থাপনার উপর মাঠ দিবস অনুষ্ঠিত
+<br></p><b>Mar 23
+2021</b>
+<p style="color:blue">খুবিতে গণহত্যা দিবস পালন এবং মহান স্বাধীনতার সুবর্ণজয়ন্তী ও জাতীয় দিবস </p>
+<b> Mar 31
+    2021<b>
+    <p style="color:blue">খুবিতে ক্রস ব্রিডিংয়ের মাধ্যমে দেশীয় ভেড়ার জাত উন্নয়নে সাফল্য, মাংসের চাহিদা পূরণে নতুন সম্ভাবনা</p>
+    <br>
+    Mar 27
+2021
+<p style="color:blue">সার্ক এগ্রিকালচার সেন্টারের সাথে খুবির বিজিই ডিসিপ্লিনের এমওইউ স্বাক্ষরের সিদ্ধান্ত<br></p>
+                            </marquee>
+                       </div> 
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <div class="content2" style="padding-bottom:200px;">
+                <h3 style="text-align: center;"> Messege from vC</h3>
+                <br>
+                <br>
+                <p style="text-align: center;">Coming soon... </p>
+
+            </div>
+        </div>
+    
+        </div>
+        </div>
+    </section>
+    <section class="what" style="background-color:lightgray; margin-top: 150px" ;>
+
+        <div class="container pb-60">
+            <div class="section-title mb-10">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1">What's <span
+                                class="text-theme-color-2 font-weight-400">Happening</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8">
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default" style="border-color:#186474">
+
+
+                            <div class="widget">
+                                <div class="panel-heading" style="background-color:#186474;color:white;">Quick Links
+                                </div>
+
+                                <ul class="list list-border" style="background:whitesmoke;">
+                                    <li style="color:skyblue;"><a href="http://ku.ac.bd/notices">Notice</a></li><br>
+                                    <li><a href="http://ku.ac.bd/career">Career</a></li>
+                                    <li><a href="http://ku.ac.bd/noclist">NOC/GO</a></li>
+                                    <li><a href="http://ku.ac.bd/tenders">Tender</a></li>
+                                    <li><a href="http://ku.ac.bd/uploads/request-form/G%20Suite.pdf">Web Mail Request
+                                            Form</a></li>
+                                    <li><a href="http://ku.ac.bd/uploads/request-form/network.pdf">Network and Hardware
+                                            Request Form</a></li>
+                                    <li><a href="https://ku.ac.bd/annual-performance-agreement-committee">Annual
+                                            Performance Agreement</a></li>
+                                    <li><a href="https://ku.ac.bd/ku-studies-published-volume">Khulna University
+                                            Studies</a></li>
+                                    <li><a href="https://ku.ac.bd/uploads/GradingScaleofKhulnaUniversity.pdf">Grading
+                                            Scale of Khulna University</a></li>
+                                    <li><a href="http://kuaa.org.bd/">KUAA</a></li>
+                                    <li><a
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSdDd46H2d8MCI9fXbefma4l7Kc6qEtqwEMwvztMzljUNEog3A/viewform">GrameenPhone's
+                                            Special Internet Package SIM</a></li>
+                                    <li><a href="https://ku.ac.bd/uploads/innovationteam.pdf">Innovation Team</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background:darkblue; opacity: 0.95;">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-smile mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="8"
+                            class="animate-number text-white mt-0 font-48 font-weight-400 appeared">8</h2>
+                        <h5 class="text-white text-uppercase mb-0">Schools</h5>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-users mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="29"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">29</h2>
+                        <h5 class="text-white text-uppercase mb-0">Disciplines</h5>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-users mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="1"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">1</h2>
+                        <h5 class="text-white text-uppercase mb-0">Institute</h5>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-md-50">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-users mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="5"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">5</h2>
+                        <h5 class="text-white text-uppercase mb-0">Halls</h5>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-smile mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="6965"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">6,965</h2>
+                        <h5 class="text-white text-uppercase mb-5">Students</h5>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-smile mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="505"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">505</h2>
+                        <h5 class="text-white text-uppercase mb-0">Teachers</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-note2 mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="277"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">277</h2>
+                        <h5 class="text-white text-uppercase mb-0">Officers</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6 col-md-3 mb-5">
+                    <div class="funfact text-center">
+                        <!-- <i class="pe-7s-users mt-5 text-theme-color-2"></i> -->
+                        <h2 data-animation-duration="1000" data-value="324"
+                            class="animate-number text-white mt-0 font-38 font-weight-400 appeared">324</h2>
+                        <h5 class="text-white text-uppercase mb-0">Employees</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" style="background:rgba(17, 73, 80, 0.89);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-5" style="color: white;">Contact us
+                    <br>
+                    Registrar
+                    <br>Khulna University, Khulna-9208, Bangladesh
+                    <br><i class="fa fa-phone" aria-hidden="true"></i> Phone : 041- 751040
+                    <br><i class="fa fa-phone" aria-hidden="true"></i>PABX :751013
+                    <br><i class="fa fa-phone" aria-hidden="true"></i>Fax: 88-041-751038
+                    <br><i class="fa fa-envelope-o" aria-hidden="true"></i>E-mail: registrar@ku.ac.bd
+                    <br><i class="fa fa-google" aria-hidden="true"></i> Web: www.ku.ac.bd
+                </div>
+                <div class="col-lg-6 mt-4">
+
+                    <p><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.006883418294!2d89.53173441427813!3d22.802208830251406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff85490c50d28f%3A0xadae6f7b93b7069a!2sKhulna%20University!5e0!3m2!1sen!2sbd!4v1617275146469!5m2!1sen!2sbd"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+                </div>
+            </div>
+            <p style="color:white">All rights reserved © ICT CELL , Khulna Unversity 2021.Rownok Jahan Silvy</p>
+        </div>
+    </section>
+    
+</body>
+
+</html>
